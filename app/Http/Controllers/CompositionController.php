@@ -20,4 +20,9 @@ class CompositionController extends Controller
     {
         return inertia('Composition/attribute-bindings');
     }
+
+    public function eventListeners()
+    {
+        return inertia('Composition/event-listeners');
+    }
 }

@@ -18,4 +18,9 @@ class OptionsController extends Controller
     {
         return inertia('Options/attribute-bindings');
     }
+
+    public function eventListeners()
+    {
+        return inertia('Options/event-listeners');
+    }
 }

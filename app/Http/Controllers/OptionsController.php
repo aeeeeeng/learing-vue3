@@ -10,4 +10,9 @@ class OptionsController extends Controller
     {
         return inertia('Options/getting-started');
     }
+
+    public function declarativeRendering()
+    {
+        return inertia('Options/declarative-rendering');
+    }
 }

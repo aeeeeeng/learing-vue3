@@ -10,4 +10,9 @@ class CompositionController extends Controller
     {
         return inertia('Composition/getting-started');
     }
+
+    public function declarativeRendering()
+    {
+        return inertia('Composition/declarative-rendering');
+    }
 }

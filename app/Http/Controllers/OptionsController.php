@@ -23,4 +23,9 @@ class OptionsController extends Controller
     {
         return inertia('Options/event-listeners');
     }
+
+    public function formBindings()
+    {
+        return inertia('Options/form-bindings');
+    }
 }

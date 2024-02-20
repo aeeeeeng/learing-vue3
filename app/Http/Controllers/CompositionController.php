@@ -25,4 +25,9 @@ class CompositionController extends Controller
     {
         return inertia('Composition/event-listeners');
     }
+
+    public function formBindings()
+    {
+        return inertia('Composition/form-bindings');
+    }
 }

@@ -1,3 +1,8 @@
+# Learning VUE3
+
+Didalam VUE3 ada 2 jenis gaya penulisan, yaitu Composition & Options. 
+
+
 ## Composition
 
 - berpusat pada state variable reaktif di scope tiap function, dapat menyusun state dari beberapa fungsi secara bersamaan.

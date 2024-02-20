@@ -15,4 +15,9 @@ class CompositionController extends Controller
     {
         return inertia('Composition/declarative-rendering');
     }
+
+    public function attributeBindings()
+    {
+        return inertia('Composition/attribute-bindings');
+    }
 }

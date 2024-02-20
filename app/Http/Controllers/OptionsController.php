@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class OptionsController extends Controller
 {
     public function gettingStarted()
@@ -14,5 +12,10 @@ class OptionsController extends Controller
     public function declarativeRendering()
     {
         return inertia('Options/declarative-rendering');
+    }
+
+    public function attributeBindings()
+    {
+        return inertia('Options/attribute-bindings');
     }
 }

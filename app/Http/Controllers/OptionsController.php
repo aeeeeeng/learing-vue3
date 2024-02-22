@@ -68,4 +68,9 @@ class OptionsController extends Controller
     {
         return inertia('Options/Emits/Parent');
     }
+
+    public function slot()
+    {
+        return inertia('Options/Slot/Parent');
+    }
 }

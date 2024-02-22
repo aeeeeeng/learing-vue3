@@ -71,4 +71,9 @@ class CompositionController extends Controller
     {
         return inertia('Composition/Emits/Parent');
     }
+
+    public function slot()
+    {
+        return inertia("Composition/Slot/Parent");
+    }
 }

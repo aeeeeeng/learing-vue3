@@ -16,3 +16,4 @@ Route::get('/watch', [CompositionController::class, 'watch']);
 Route::get('/component', [CompositionController::class, 'component']);
 Route::get('/props', [CompositionController::class, 'props']);
 Route::get('/emits', [CompositionController::class, 'emits']);
+Route::get('/slot', [CompositionController::class, 'slot']);

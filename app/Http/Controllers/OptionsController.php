@@ -58,4 +58,9 @@ class OptionsController extends Controller
     {
         return inertia('Options/Component/Parent');
     }
+
+    public function props()
+    {
+        return inertia('Options/Props/Parent');
+    }
 }

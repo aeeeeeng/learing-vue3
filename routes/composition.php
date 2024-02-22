@@ -14,3 +14,4 @@ Route::get('/computed-property', [CompositionController::class, 'computedPropert
 Route::get('/lifecycle', [CompositionController::class, 'lifecycle']);
 Route::get('/watch', [CompositionController::class, 'watch']);
 Route::get('/component', [CompositionController::class, 'component']);
+Route::get('/props', [CompositionController::class, 'props']);

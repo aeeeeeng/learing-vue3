@@ -48,4 +48,9 @@ class OptionsController extends Controller
     {
         return inertia('Options/lifecycle');
     }
+
+    public function watch()
+    {
+        return inertia('Options/watch');
+    }
 }

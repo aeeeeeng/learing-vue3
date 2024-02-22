@@ -50,4 +50,9 @@ class CompositionController extends Controller
     {
         return inertia('Composition/lifecycle');
     }
+
+    public function watch()
+    {
+        return inertia('Composition/watch');
+    }
 }

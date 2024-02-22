@@ -28,4 +28,9 @@ class OptionsController extends Controller
     {
         return inertia('Options/form-bindings');
     }
+
+    public function conditionalRendering()
+    {
+        return inertia('Options/conditional-rendering');
+    }
 }

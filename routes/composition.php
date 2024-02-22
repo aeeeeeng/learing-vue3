@@ -8,3 +8,4 @@ Route::get('/declarative-rendering', [CompositionController::class, 'declarative
 Route::get('/attribute-bindings', [CompositionController::class, 'attributeBindings']);
 Route::get('/event-listeners', [CompositionController::class, 'eventListeners']);
 Route::get('/form-bindings', [CompositionController::class, 'formBindings']);
+Route::get('/conditional-rendering', [CompositionController::class, 'conditionalRendering']);

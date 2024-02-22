@@ -30,4 +30,9 @@ class CompositionController extends Controller
     {
         return inertia('Composition/form-bindings');
     }
+
+    public function conditionalRendering()
+    {
+        return inertia('Composition/conditional-rendering');
+    }
 }

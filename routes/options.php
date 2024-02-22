@@ -8,3 +8,4 @@ Route::get('/declarative-rendering', [OptionsController::class, 'declarativeRend
 Route::get('/attribute-bindings', [OptionsController::class, 'attributeBindings']);
 Route::get('/event-listeners', [OptionsController::class, 'eventListeners']);
 Route::get('/form-bindings', [OptionsController::class, 'formBindings']);
+Route::get('/conditional-rendering', [OptionsController::class, 'conditionalRendering']);

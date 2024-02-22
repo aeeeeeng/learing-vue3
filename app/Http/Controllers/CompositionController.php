@@ -40,4 +40,9 @@ class CompositionController extends Controller
     {
         return inertia('Composition/list-rendering');
     }
+
+    public function computedProperty()
+    {
+        return inertia('Composition/computed-property');
+    }
 }

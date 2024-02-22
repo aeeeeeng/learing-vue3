@@ -38,4 +38,9 @@ class OptionsController extends Controller
     {
         return inertia('Options/list-rendering');
     }
+
+    public function computedProperty()
+    {
+        return inertia('Options/computed-property');
+    }
 }

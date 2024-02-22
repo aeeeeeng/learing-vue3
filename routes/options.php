@@ -10,3 +10,4 @@ Route::get('/event-listeners', [OptionsController::class, 'eventListeners']);
 Route::get('/form-bindings', [OptionsController::class, 'formBindings']);
 Route::get('/conditional-rendering', [OptionsController::class, 'conditionalRendering']);
 Route::get('/list-rendering', [OptionsController::class, 'listRendering']);
+Route::get('/computed-property', [OptionsController::class, 'computedProperty']);

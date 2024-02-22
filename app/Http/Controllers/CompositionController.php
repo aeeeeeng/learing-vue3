@@ -35,4 +35,9 @@ class CompositionController extends Controller
     {
         return inertia('Composition/conditional-rendering');
     }
+
+    public function listRendering()
+    {
+        return inertia('Composition/list-rendering');
+    }
 }

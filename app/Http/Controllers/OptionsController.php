@@ -33,4 +33,9 @@ class OptionsController extends Controller
     {
         return inertia('Options/conditional-rendering');
     }
+
+    public function listRendering()
+    {
+        return inertia('Options/list-rendering');
+    }
 }

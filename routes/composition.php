@@ -9,3 +9,4 @@ Route::get('/attribute-bindings', [CompositionController::class, 'attributeBindi
 Route::get('/event-listeners', [CompositionController::class, 'eventListeners']);
 Route::get('/form-bindings', [CompositionController::class, 'formBindings']);
 Route::get('/conditional-rendering', [CompositionController::class, 'conditionalRendering']);
+Route::get('/list-rendering', [CompositionController::class, 'listRendering']);

@@ -53,4 +53,9 @@ class OptionsController extends Controller
     {
         return inertia('Options/watch');
     }
+
+    public function component()
+    {
+        return inertia('Options/Component/Parent');
+    }
 }

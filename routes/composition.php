@@ -13,3 +13,4 @@ Route::get('/list-rendering', [CompositionController::class, 'listRendering']);
 Route::get('/computed-property', [CompositionController::class, 'computedProperty']);
 Route::get('/lifecycle', [CompositionController::class, 'lifecycle']);
 Route::get('/watch', [CompositionController::class, 'watch']);
+Route::get('/component', [CompositionController::class, 'component']);

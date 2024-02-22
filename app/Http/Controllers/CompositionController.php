@@ -55,4 +55,10 @@ class CompositionController extends Controller
     {
         return inertia('Composition/watch');
     }
+
+
+    public function component()
+    {
+        return inertia('Composition/Component/Parent');
+    }
 }

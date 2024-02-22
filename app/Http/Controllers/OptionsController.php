@@ -43,4 +43,9 @@ class OptionsController extends Controller
     {
         return inertia('Options/computed-property');
     }
+
+    public function lifecycle()
+    {
+        return inertia('Options/lifecycle');
+    }
 }

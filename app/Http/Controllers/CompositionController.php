@@ -45,4 +45,9 @@ class CompositionController extends Controller
     {
         return inertia('Composition/computed-property');
     }
+
+    public function lifecycle()
+    {
+        return inertia('Composition/lifecycle');
+    }
 }

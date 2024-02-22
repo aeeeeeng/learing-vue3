@@ -63,4 +63,9 @@ class OptionsController extends Controller
     {
         return inertia('Options/Props/Parent');
     }
+
+    public function emits()
+    {
+        return inertia('Options/Emits/Parent');
+    }
 }

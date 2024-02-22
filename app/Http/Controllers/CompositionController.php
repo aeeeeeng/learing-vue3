@@ -66,4 +66,9 @@ class CompositionController extends Controller
     {
         return inertia('Composition/Props/Parent');
     }
+
+    public function emits()
+    {
+        return inertia('Composition/Emits/Parent');
+    }
 }

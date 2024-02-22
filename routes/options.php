@@ -15,3 +15,4 @@ Route::get('/lifecycle', [OptionsController::class, 'lifecycle']);
 Route::get('/watch', [OptionsController::class, 'watch']);
 Route::get('/component', [OptionsController::class, 'component']);
 Route::get('/props', [OptionsController::class, 'props']);
+Route::get('/emits', [OptionsController::class, 'emits']);

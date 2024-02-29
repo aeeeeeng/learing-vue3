@@ -8,6 +8,16 @@ class WelcomeController extends Controller
 {
     public function index()
     {
-        return inertia('welcome');
+        return inertia('Example', [
+            'test' => [
+                'a' => 1,
+                'b' => 2
+            ]
+        ]);
+    }
+
+    public function example()
+    {
+
     }
 }

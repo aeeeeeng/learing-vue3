@@ -1,4 +1,8 @@
+<script setup>
+    import Layout from '../Layout.vue'
+</script>
 <template>
-    <h1>Hello World</h1>
+    <Layout>
+        <h1>Hello World</h1>
+    </Layout>
 </template>
-

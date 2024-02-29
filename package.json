@@ -13,6 +13,8 @@
         "vue": "^3.4.19"
     },
     "dependencies": {
-        "@inertiajs/vue3": "^1.0.14"
+        "@inertiajs/vue3": "^1.0.14",
+        "devextreme": "23.2.4",
+        "devextreme-vue": "23.2.4"
     }
 }
